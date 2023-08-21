@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="menu">
+     <p>World Geography Games</p>
+     <div class="text1">Country Flag Quiz</div>
+     <div class="text2">Guess the flags of 197 countries: from Afghanistan to Zimbabwe
+     </div>
+      <ul id="buttons">
+        <li id="play"><i class="fa-solid fa-circle-play fa-2xl"></i><span>Play</span></li>
+        <li id="options"><i class="fa-solid fa-gear  fa-2xl"></i><span>Options</span></li>
+        <li id="libary"><i class="fa-solid fa-book-open fa-2xl"></i><span>Libary</span></li>
+      </ul>
+    </div>
+    <div class="quizMenu">
+           <div class="head">
+            <li id="backButton"><i class="fa-solid fa-circle-left fa-xl"></i></li>
+            <li id="pointScore">Score:<span id="score"></span></li>
+            <li id="pointLevel"><span id="level">1</span>/25</li>
+           </div>
+
+           <div class="next">
+            <button id="next">Next</button>
+           </div>
+    </div>
+     <div class="option_menu">
+         <li id="backButton"><i class="fa-solid fa-circle-left fa-xl"></i></li>
+         <ul class="level_button">
+          <label for="">Low
+            <input type="radio" value="2"  name="" id="but_low">
+          </label>
+          <label for="">Medium
+            <input type="radio"value="4"  name="" id="but_medium">
+          </label>
+          <label for="">High
+            <input type="radio" value="6"  name="" id="but_hing">
+          </label>
+         </ul>
+     </div>
+     <div class="libary_menu">
+         <div class="lib_head">
+             <button id="exit_libary_but">
+              Exit
+             </button>
+         </div>
+         <div class="lib_content">
+
+         </div>
+     </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
